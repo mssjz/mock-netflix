@@ -4,6 +4,27 @@
   text-align: center;
 }
 
+h3 {
+  margin-left: 10px;
+}
+
+img {
+  width: 166px;
+  height: 234px;
+}
+.titles {
+  margin-left: 10px;
+}
+
 .film{
   margin: 10px;
+}
+
+.btn{
+  visibility: hidden;
+  z-index: 1;
+}
+
+.film:hover .btn{
+  visibility: visible;
 }
